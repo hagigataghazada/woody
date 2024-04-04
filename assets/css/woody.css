@@ -85,6 +85,10 @@ header {
 .menu .home-color {
     color: var(--light-brown);
 }
+.sehifeler {
+    position: relative;
+    transition: 0.9s;
+}
 .pagebtn {
     border: none;
     background-color: var(--white);
@@ -99,9 +103,27 @@ header {
     color: var(--dark-black);
 }
 .page-content {
+    padding-top: 10px;
+    display: none;
+    position: absolute;
+    top: 60px;
+    z-index: 1;
+    width: 150px;
+    height: 150px;
+    padding-left: 12px;
+    transition: 0.9s;
+    
+}
+.page-content a {
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.sehifeler:hover .page-content  {
+    display: block;
     display: flex;
     flex-direction: column;
-    display: none;
+    gap: 10px;
+    transform: translateY(-40px);
 }
 .getaquote {
     /* padding: 24px 48px; */
