@@ -270,7 +270,8 @@ header {
   .woodywelcome h1 {
     font-size: 2.5rem;
   }
-  .readmore, .freequote {
+  .readmore,
+  .freequote {
     padding: 15px 25px;
     font-size: 0.8rem;
   }
@@ -393,7 +394,7 @@ h5 {
   display: flex;
   width: 50%;
   gap: 20px;
-  flex-direction: row
+  flex-direction: row;
 }
 .ikon3 {
   width: 10vh;
@@ -538,7 +539,6 @@ h5 {
   grid-template: auto / auto auto auto;
 }
 .grid-item {
-  color: #353535;
   width: 100%;
   height: 80vh;
 }
@@ -609,3 +609,115 @@ h5 {
   align-items: center;
   gap: 10px;
 }
+/* Why Choose Us  */
+#whychooseus {
+  width: 100%;
+  height: 100vh;
+  margin-top: 100px;
+  display: flex;
+}
+.chooseus {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 80px 20px 30px 80px;
+  background-color: var(--gray);
+}
+.chooseus h1 {
+  font-size: 3rem;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+.chooseus p {
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
+  color: var(--dark-gray);
+  line-height: 1.6;
+  padding-right: 12px;
+}
+.woodrepair {
+  margin-top: 40px;
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.wood {
+  width: 50%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+}
+.ikon4 {
+  width: 12vh;
+  height: 12vh;
+  background-color: var(--white);
+  color: var(--light-brown);
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.choose {
+  width: 50%;
+  height: 100vh;
+  background-image: url(../img/feature.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Our Projects  */
+.project {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.ourproject h1 {
+  font-size: 3rem;
+  color: var(--black);
+}
+.carpentry {
+  margin-top: 20px;
+}
+.carpentry a {
+  margin-right: 20px;
+  font-size: 1.1rem;
+}
+.grid-container {
+  height: 180vh;
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 20px;
+  padding-top: 20px;
+  grid-template: auto / auto auto auto;
+}
+.grid-item {
+  width: 100%;
+  height: 60vh;
+  background-color: #353535;
+}
+.pjimg1 {
+  background-image: url(../img/service-1.jpg);
+}
+.pjimg2 {
+  background-image: url(../img/service-2.jpg);
+}
+.pjimg3 {
+  background-image: url(../img/service-3.jpg);
+}
+.pjimg4 {
+  background-image: url(../img/service-4.jpg);
+}
+.pjimg5 {
+  background-image: url(../img/service-5.jpg);
+}
+.pjimg6 {
+  background-image: url(../img/service-6.jpg);
+}
+
