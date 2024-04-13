@@ -201,7 +201,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.container {
+.firstsection {
   display: flex;
   justify-content: center;
   height: 100vh;
@@ -276,5 +276,80 @@ header {
   }
   .woodywelcome p {
     font-size: 1rem;
+  }
+}
+/* Feature Starts */
+#feature {
+  width: 100%;
+  height: 50vh;
+  padding: 30px 60px;
+}
+.row {
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  height: 50vh;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  /* width: 1320px; */
+  /* padding: 0 50px; */
+}
+.col-md-6 {
+  width: 25%;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 25px;
+}
+.feature {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  gap: 40px;
+}
+.ikon {
+  width: 9vh;
+  height: 9vh;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ikon i {
+  font-size: 2rem;
+  color: var(--light-brown);
+}
+h2 {
+  font-size: 4.5rem;
+  color: var(--gray);
+}
+h5 {
+  color: #353535;
+  font-size: 1.25rem;
+  text-align: left;
+  margin-top: 10px;
+}
+@media (max-width: 1000px) {
+  #feature {
+    padding: 20px 40px;
+  }
+  .row {
+    flex-wrap: wrap;
+  }
+  .col-md-6 {
+    width: 40%;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h5 {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 769px) {
+  .col-md-6 {
+    width: 100%;
   }
 }
