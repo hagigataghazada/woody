@@ -349,6 +349,9 @@ h5 {
   }
 }
 @media (max-width: 769px) {
+  #feature {
+    height: 130vh;
+  }
   .col-md-6 {
     width: 100%;
   }
@@ -356,6 +359,7 @@ h5 {
 /* About Starts */
 #about {
   display: flex;
+  background-color: var(--gray);
 }
 .about1 {
   background-image: url(../img/about.jpg);
@@ -416,4 +420,96 @@ h5 {
   color: var(--white);
   width: 30%;
   font-size: 1rem;
+}
+@media (max-width: 1439px) {
+  .about2 {
+    padding: 50px 50px 30px 20px;
+  }
+  .exploremore {
+    margin-top: 30px;
+    padding: 20px 20px;
+  }
+}
+@media (max-width: 1101px) {
+  .about2 p {
+    font-size: 1rem;
+  }
+  .ikon3 {
+    width: 8vh;
+    height: 8vh;
+    font-size: 1.5rem;
+  }
+  .reqem h3 {
+    font-size: 1.5rem;
+  }
+  .exploremore {
+    margin-top: 20px;
+    width: 40%;
+  }
+}
+@media (max-width: 993px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+  }
+  .about1 {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .about2 {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .exploremore {
+    width: 30%;
+  }
+}
+@media (max-width: 769px) {
+  .about1 {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .about2 {
+    width: 80%;
+    margin: 0 10%;
+    padding: 50px 10px 10px 10px;
+  }
+  .about2 h1 {
+    font-size: 2.5rem;
+  }
+  .reqem h3 {
+    font-size: 1.2rem;
+  }
+  .reqem p {
+    font-size: 1rem;
+  }
+  .exploremore {
+    width: 50%;
+  }
+}
+@media (max-width: 577px) {
+  .pjproducts {
+    flex-wrap: wrap;
+  }
+  .about2 {
+    padding: 20px 0;
+    gap: 15px;
+  }
+  .happy {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .about2 h1 {
+    font-size: 2rem;
+  }
+  .about2 p {
+    margin: 0;
+    font-size: 0.9rem;
+  }
+  .exploremore {
+    margin-top: 0;
+    width: 70%;
+    padding: 15px 40px;
+    font-size: 0.9rem;
+  }
 }
